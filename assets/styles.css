@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+header { background: #003366; color: #fff; padding: 1em; }
+header h1 { margin: 0; }
+nav a { color: white; margin-right: 15px; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { padding: 1em; }
+.case { background: white; padding: 1em; margin-bottom: 1em; border-radius: 5px; }
+.case h3 { margin-top: 0; }
+form input, form textarea, form select { display: block; width: 100%; margin-bottom: 10px; padding: 8px; }
+button { padding: 8px 16px; background: #003366; color: white; border: none; cursor: pointer; }
+button:hover { background: #0055aa; }
