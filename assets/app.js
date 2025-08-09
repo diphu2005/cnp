@@ -14,8 +14,9 @@ function saveCase(c){
 
 function renderHome(){
   app.innerHTML = `<h2>Welcome</h2>
-  <p>Select a category to view discussions or submit your own case.</p>`;
+  <p>This webpage has been created for discussion on Contract Management issues. Select a category to view discussions or submit your own case.</p>`;
 }
+
 
 function renderCategory(stage){
   const cases = getCases().filter(c => c.stage === stage);
